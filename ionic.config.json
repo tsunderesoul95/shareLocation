@@ -1,0 +1,8 @@
+{
+  "name": "shareLocation",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
