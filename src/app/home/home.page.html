@@ -11,7 +11,7 @@
     <h4>Location</h4>
     <ion-list>
       <ion-card *ngFor="let location of locationTraces">
-        <!-- <ion-label class="ion-text-wrap"> -->
+        
           <ion-label>Time: {{location.timestamp | date:'M/d/yy, h:mm a'}}</ion-label>
           <ion-row>
           <ion-label>Latitude: {{location.latitude}}</ion-label>
@@ -19,7 +19,7 @@
           <ion-row>
         <ion-label>Longitude: {{location.longitude}}</ion-label>
         </ion-row>
-        <!-- </ion-label> -->
+        
       </ion-card>
     </ion-list>
       <div #map id='map'></div>
