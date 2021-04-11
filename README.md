@@ -13,8 +13,6 @@ Sharing live location in ionic 4
 
 Ionic framework,editor,browser
 
-Android SDK [Download](http://developer.android.com/sdk/index.html)
-
 ## Open the project
   1.If want to run on browser you can use ionic serve
   2. Or else add android platform to run on android devices.
